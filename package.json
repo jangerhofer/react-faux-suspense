@@ -1,0 +1,38 @@
+{
+  "name": "react-faux-suspense",
+  "version": "1.0.0",
+  "description": "Experiment in loading methodology.",
+  "keywords": [],
+  "main": "dist/react-faux-suspense.umd.js",
+  "module": "dist/react-faux-suspense.es5.js",
+  "typings": "dist/types/react-faux-suspense.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "jangerhofer jd.angerhofer@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "build": "tsc --module commonjs"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.0",
+    "@types/node": "^10.0.3",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "prettier": "^1.13.4",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  }
+}
