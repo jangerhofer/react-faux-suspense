@@ -1,6 +1,6 @@
 {
   "name": "react-faux-suspense",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Experiment in loading methodology.",
   "keywords": [],
   "main": "dist/lib/index.js",
@@ -18,7 +18,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc src/index.tsx",
     "prepublishOnly": "npm run build",
     "postinstall": "npm run build"
   },
