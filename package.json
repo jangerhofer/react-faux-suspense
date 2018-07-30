@@ -1,6 +1,6 @@
 {
   "name": "react-faux-suspense",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Experiment in loading methodology.",
   "keywords": [],
   "main": "dist/lib/index.js",
